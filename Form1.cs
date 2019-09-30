@@ -29,7 +29,7 @@ namespace game_1
         //{
           //  throw new NotImplementedException();
         //}
-
+        // below code is for load the gun//
         private void Btn_Load_Click(object sender, EventArgs e)
         {
             //bandook.Load();
@@ -56,7 +56,7 @@ namespace game_1
             SoundPlayer player = new SoundPlayer(Resource1.load1);
             player.Play();
         }
-
+        //below coding is for spin button //
         private void Btn_Spin_Click(object sender, EventArgs e)
         {
            // bandook.Spin();
@@ -83,7 +83,7 @@ namespace game_1
             SoundPlayer player = new SoundPlayer(Resource1.spin1);
             player.Play();
         }
-
+          //below code is for shoot button//
         private void Btn_Shoot_Click(object sender, EventArgs e)
         {
             bandook.Shoot();
@@ -117,7 +117,7 @@ namespace game_1
 
         }
         
-
+        //below code is for shootaway button//
         private void Btn_ShootAway_Click(object sender, EventArgs e)
         {
             bandook.Shootaway();
@@ -161,7 +161,7 @@ namespace game_1
             btn_ShootAway.Enabled = false;
         }
         
-
+        // code below for load //
         private void Form1_Load(object sender, EventArgs e)
         {
             btn_Spin.Enabled = false;

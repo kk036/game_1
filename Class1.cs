@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace game_1
-{
+{//define class below// 
     public class Class1
     {
         public int RNDNumber { get; set; }
@@ -24,21 +24,25 @@ namespace game_1
             return myrandom.Next(1, 7);
 
         }
+        //below is the string for win game//
         public string Wingame()
         {
             Win = "you win";
             return Win;
         }
+        //below is the string for loose game//
         public string Loosegame()
         {
             Loose = "you Loose";
             return Loose;
         }
+        //below is the string  for to show messgebox for win/n loose//
         public string Messageboxgame()
         {
             MessageBox.Show("you win");
             return Messagebox;
         }
+        //below is the coding for shoot button message show// 
         public int Shoot()
         {
             btn_Shoot++;
@@ -49,6 +53,7 @@ namespace game_1
             }
             return btn_Shoot;
         }
+        //below is the coding for shootaway button show message//
         public int Shootaway()
         {
             btn_ShootAway--;
